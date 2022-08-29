@@ -1,0 +1,74 @@
+.profil {
+  max-width: 296px;
+  width: 100%;
+}
+
+.profil-img-link {
+  display: inline-block;
+}
+
+.profil-img-avatar {
+  max-width: 296px;
+  max-height: 296px;
+  border-radius: 50%;
+}
+
+.profil-name-wrapper {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.profil-heading-fullname {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.25;
+}
+
+.profil-desc-nickname {
+  margin: 0;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  color: #57606a;
+}
+
+.profil-follow-btn {
+  max-width: 296px;
+  width: 100%;
+  border: none;
+  border: 1px solid #ced1d5;
+  border-radius: 5px;
+  background: #f6f8fa;
+  font-weight: 500;
+  transition: all 0.4s;
+  margin-bottom: 16px;
+}
+
+.profil-follow-btn:hover {
+  background: #f1f2f4;
+}
+
+.profil-follow-btn:active {
+  background: #e1e2e3;
+}
+
+.profil-desc-yourself {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.profil-followers {
+  cursor: pointer;
+  margin: 0;
+  color: #57606a;
+  font-weight: 500;
+}
+
+.profil-following {
+  cursor: pointer;
+  margin: 0;
+  color: #57606a;
+  font-weight: 500;
+}

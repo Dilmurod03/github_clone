@@ -1,0 +1,19 @@
+.packages {
+  padding-top: 100px;
+  padding-left: 40px;
+  max-width: 896px;
+  text-align: center;
+}
+
+.packages-heading {
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.packages-desc {
+  margin: 0;
+  font-size: 16px;
+}

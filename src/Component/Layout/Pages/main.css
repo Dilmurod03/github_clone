@@ -1,0 +1,45 @@
+.pages {
+  max-width: 896px;
+  width: 100%;
+  padding-left: 40px;
+}
+
+.isactive {
+  font-weight: 500;
+  border-bottom: 3px solid #FD8C73;
+}
+
+.pages-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+}
+
+.pages-item {
+  color: #000000;
+}
+
+.pages-item:hover {
+  opacity: 0.7;
+}
+
+.pages-item:active {
+  opacity: 0.5;
+}
+
+.pages-list-link {
+  font-size: 13px;
+  line-height: 30px;
+  color: #24292f;
+  color: black;
+}
+
+.repos-size {
+  padding: 1px 6px;
+  color: #24292f;
+  background-color: #e6ebf0;
+  padding: 2 6px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  border-radius: 2em;
+}

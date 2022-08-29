@@ -1,0 +1,56 @@
+.containers {
+  max-width: 1475px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.containers-main {
+  max-width: 1236px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.main {
+  padding-top: 24px;
+}
+
+.pages-wrapper {
+  max-width: 896px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 810px) {
+
+  .main__containers-main {
+    flex-direction: column;
+  }
+
+  .profil {
+    max-width: 724px;
+    margin-bottom: 20px;
+  }
+
+  .profil-follow-btn {
+    max-width: 724px;
+  }
+
+  .profil-img-avatar {
+    max-width: 113px;
+    max-height: 113px;
+  }
+
+  .projects {
+    padding-left: 0;
+  }
+
+  .packages {
+    padding-left: 0;
+  }
+
+  .repos {
+    padding-left: 0px;
+  }
+
+}
